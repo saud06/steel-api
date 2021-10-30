@@ -1,0 +1,23 @@
+{
+  "name": "steel-api",
+  "version": "1.0.0",
+  "description": "An API which assists a steel industry to store items either in server file system or MySQL db.",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon app",
+    "production": "NODE_ENV=production nodemon app"
+  },
+  "author": "Saud",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
+  }
+}
